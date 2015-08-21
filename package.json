@@ -1,0 +1,21 @@
+{
+  "name": "producerConsumer",
+  "version": "1.0.0",
+  "description": "Producer consumer challenge",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jasmine-node specs/"
+  },
+  "author": "Gabriel Hernandez <webspinner.gabriel@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "connect": "^3.4.0",
+    "request": "^2.61.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
